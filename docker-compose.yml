@@ -1,0 +1,10 @@
+services:
+  flutter-env:
+    build: .
+    privileged: true
+    tty: true
+    volumes:
+      - ./src:/home/developer/src
+    devices:
+      - /dev/kvm
+      - /dev/bus/usb
