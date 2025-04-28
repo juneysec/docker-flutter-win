@@ -2,6 +2,14 @@
 
 ## 前準備
 
+WSL の Ubuntu-24.04 をインストール
+```
+wsl --install Ubuntu-24.04
+```
+
+docker の設定を開いて、Resources > WSL integration で Ubuntu-24.04 の WSL integration を有効化
+
+
 VCXSRC インストール
 ```cmd
 winget install marha.VcXsrv
